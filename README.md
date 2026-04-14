@@ -55,27 +55,84 @@ It was built as a **team project during the hackathon**.
 - Supabase (for database and backend services)
 ---
 
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](assets/homepage.png)
+---
+
+### 📝 Submit Feedback
+![Submit Feedback](assets/submit-feedback.png)
+---
+
+### 📂 My Sessions
+![My Sessions](assets/my-sessions.png)
+---
+
+### 🌍 Community Feed
+![Community](assets/community.png)
+---
+
+### 📊 Progress Tracking
+![Progress](assets/progress.png)
+---
+
+### ⚙️ Admin Dashboard
+![Admin](assets/admin-dashboard.png)
+
 ## 📂 Project Structure
-src/
-├── components/
-│ ├── AdminDashboard.tsx
-│ ├── AnonymousChat.tsx
-│ ├── CommunityFeed.tsx
-│ ├── FeedbackSubmission.tsx
+VoxPop-Anonymous-Feedback-Platform/
 │
-├── supabase/
-│ └── backend integration
+├── assets/                     # Screenshots for README
+│   ├── homepage.png
+│   ├── submit-feedback.png
+│   ├── my-sessions.png
+│   ├── community.png
+│   ├── progress.png
+│   └── admin-dashboard.png
 │
-├── utils/
-│ └── helper functions
+├── public/                     # Static files
+│   └── favicon.ico
 │
-├── App.tsx
-├── main.tsx
+├── src/                        # Main source code
+│
+│   ├── components/             # Reusable UI components
+│   │   ├── AdminDashboard.tsx
+│   │   ├── AnonymousChat.tsx
+│   │   ├── CommunityFeed.tsx
+│   │   ├── FeedbackSubmission.tsx
+│   │   └── ui/                 # UI elements (buttons, cards, etc.)
+│
+│   ├── pages/                  # Page-level components (if used)
+│   │   ├── Home.tsx
+│   │   ├── Sessions.tsx
+│   │   ├── Community.tsx
+│   │   ├── Progress.tsx
+│   │   └── Admin.tsx
+│
+│   ├── services/               # API / backend calls
+│   │   └── supabaseClient.ts
+│
+│   ├── utils/                  # Helper functions
+│   │   └── helpers.ts
+│
+│   ├── types/                  # TypeScript types/interfaces
+│   │   └── index.ts
+│
+│   ├── App.tsx                 # Main app component
+│   ├── main.tsx                # Entry point
+│   └── index.css               # Global styles
+│
+├── .gitignore
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+├── README.md                   # Project documentation
+└── LICENSE (optional)
 ---
 
 ## ▶️ How to Run the Project
-
-```bash
+bash
 npm install
 npm run dev
 ---
