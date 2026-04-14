@@ -81,6 +81,7 @@ It was built as a **team project during the hackathon**.
 ![Admin](assets/admin-dashboard.png)
 
 ## 📂 Project Structure
+```
 VoxPop-Anonymous-Feedback-Platform/
 │
 ├── assets/                     # Screenshots for README
@@ -129,12 +130,15 @@ VoxPop-Anonymous-Feedback-Platform/
 ├── vite.config.ts
 ├── README.md                   # Project documentation
 └── LICENSE (optional)
+```
 ---
 
 ## ▶️ How to Run the Project
 bash
+```
 npm install
 npm run dev
+```
 ---
 
 ## 📌 Note
