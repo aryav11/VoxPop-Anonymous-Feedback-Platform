@@ -58,38 +58,38 @@ It was built as a **team project during the hackathon**.
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](assets/homepage.png)
+![Home Page](assets/homepage.png.png)
 ---
 
 ### 📝 Submit Feedback
-![Submit Feedback](assets/submit-feedback.png)
+![Submit Feedback](assets/submit-feedback.png.png)
 ---
 
 ### 📂 My Sessions
-![My Sessions](assets/my-sessions.png)
+![My Sessions](assets/my-sessions.png.png)
 ---
 
 ### 🌍 Community Feed
-![Community](assets/community.png)
+![Community](assets/community.png.png)
 ---
 
 ### 📊 Progress Tracking
-![Progress](assets/progress.png)
+![Progress](assets/progress.png.png)
 ---
 
 ### ⚙️ Admin Dashboard
-![Admin](assets/admin-dashboard.png)
+![Admin](assets/admin-dashboard.png.png)
 
 ## 📂 Project Structure
 VoxPop-Anonymous-Feedback-Platform/
 │
 ├── assets/                     # Screenshots for README
-│   ├── homepage.png
-│   ├── submit-feedback.png
-│   ├── my-sessions.png
-│   ├── community.png
-│   ├── progress.png
-│   └── admin-dashboard.png
+│   ├── homepage.png.png
+│   ├── submit-feedback.png.png
+│   ├── my-sessions.png.png
+│   ├── community.png.png
+│   ├── progress.png.png
+│   └── admin-dashboard.png.png
 │
 ├── public/                     # Static files
 │   └── favicon.ico
