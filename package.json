@@ -1,0 +1,35 @@
+{
+      "name": "voxpop-anonymous-feedback-platform",
+      "version": "0.1.0",
+      "private": true,
+      "type": "module",
+      "dependencies": {
+            "@radix-ui/react-dialog": "^1.1.15",
+            "@radix-ui/react-progress": "^1.1.8",
+            "@radix-ui/react-scroll-area": "^1.2.10",
+            "@radix-ui/react-select": "^2.2.6",
+            "@radix-ui/react-slot": "^1.2.4",
+            "@radix-ui/react-tabs": "^1.1.13",
+            "class-variance-authority": "^0.7.1",
+            "clsx": "^2.1.1",
+            "lucide-react": "^0.487.0",
+            "react": "^18.3.1",
+            "react-dom": "^18.3.1",
+            "recharts": "^2.15.2",
+            "tailwind-merge": "^3.5.0"
+      },
+      "devDependencies": {
+            "@types/node": "^20.10.0",
+            "@types/react": "^18.3.12",
+            "@types/react-dom": "^18.3.1",
+            "@vitejs/plugin-react": "^6.0.2",
+            "typescript": "^5.6.3",
+            "vite": "^8.0.13"
+      },
+      "scripts": {
+            "dev": "vite",
+            "typecheck": "tsc --noEmit",
+            "build": "tsc --noEmit && vite build",
+            "preview": "vite preview"
+      }
+}
